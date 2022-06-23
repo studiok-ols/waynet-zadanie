@@ -1,0 +1,38 @@
+.stk2-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 30px;
+	row-gap: 30px;
+}
+
+.stk2-column-wrapper .product-miniature .thumbnail-container .product-thumbnail img {
+	max-width: 100px;
+}
+
+.stk2-column-wrapper .product-miniature .thumbnail-container {
+	display: flex; flex-wrap: wrap;
+}
+
+.stk2-column-wrapper .highlighted-informations {
+	display: none;
+}
+
+.stk2-column-wrapper .product-description {
+	width: calc(100% - 100px);
+}
+
+.stk2-column-wrapper .product-flags {
+	position: relative; width: 50%;
+}
+
+.stk2-column-wrapper .product-price-and-shipping form {
+	display: flex; align-items: center;
+}
+
+.stk2-column-wrapper .btn.btn-primary {
+	font-size: 12px; height: 30px;
+}
+
+.stk2-column-wrapper .product-price-and-shipping form input[type="number"] {
+	width: 20%; padding: 0 10px !important;
+}
